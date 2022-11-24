@@ -1,0 +1,45 @@
+{
+  "name": "backoff-pool",
+  "version": "0.0.1",
+  "description": "A helper library to manage expotential backoff intervals of different resources.",
+  "main": "dist/src/core.js",
+  "types": "dist/src/core.d.ts",
+  "scripts": {
+    "test": "tsc --noEmit",
+    "build": "tsc -p ."
+  },
+  "keywords": [
+    "backoff",
+    "object pool",
+    "timer",
+    "interval"
+  ],
+  "author": {
+    "name": "Beeno Tung",
+    "email": "aabbcc1241@yahoo.com.hk",
+    "url": "https://beeno-tung.surge.sh"
+  },
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^16",
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "ts-mocha": "^10.0.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.3"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beenotung/backoff-pool.git"
+  },
+  "bugs": {
+    "url": "https://github.com/beenotung/backoff-pool/issues"
+  },
+  "homepage": "https://github.com/beenotung/backoff-pool#readme"
+}
