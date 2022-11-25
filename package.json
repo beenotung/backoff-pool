@@ -24,9 +24,9 @@
   },
   "main": "dist/src/core.js",
   "types": "dist/src/core.d.ts",
-  "directories": {
-    "test": "test"
-  },
+  "files": [
+    "dist/src"
+  ],
   "scripts": {
     "test": "npm run mocha && npm run type-check",
     "type-check": "tsc --noEmit",
