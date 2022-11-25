@@ -7,7 +7,6 @@ This can be used to manage retry interval of login attempts per IP address.
 [![npm Package Version](https://img.shields.io/npm/v/backoff-pool)](https://www.npmjs.com/package/backoff-pool)
 [![Minified Package Size](https://img.shields.io/bundlephobia/min/backoff-pool)](https://bundlephobia.com/package/backoff-pool)
 [![Minified and Gzipped Package Size](https://img.shields.io/bundlephobia/minzip/backoff-pool)](https://bundlephobia.com/package/backoff-pool)
-[![npm Package Downloads](https://img.shields.io/npm/dm/backoff-pool)](https://www.npmtrends.com/backoff-pool)
 
 ## Typescript Types
 
