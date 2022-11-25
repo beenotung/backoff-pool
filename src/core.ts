@@ -52,6 +52,10 @@ export class BackoffPool<Key = string | number> {
     return this.intervals.get(key) || this.options.defaultInterval
   }
 
+  getUnlockTime(key: Key): number | undefined {
+    return this.unlockTimes.get(key)
+  }
+
   applyRandomBackoff(key: Key, range?: number): void {
     let interval = this.getInterval(key)
     interval +=
