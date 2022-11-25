@@ -2,14 +2,6 @@
   "name": "backoff-pool",
   "version": "0.0.1",
   "description": "A helper library to manage expotential backoff intervals of different resources.",
-  "main": "dist/src/core.js",
-  "types": "dist/src/core.d.ts",
-  "scripts": {
-    "test": "npm run mocha && npm run type-check",
-    "type-check": "tsc --noEmit",
-    "mocha": "ts-mocha test/core.test.ts",
-    "build": "tsc -p ."
-  },
   "keywords": [
     "backoff",
     "object pool",
@@ -22,6 +14,25 @@
     "url": "https://beeno-tung.surge.sh"
   },
   "license": "BSD-2-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beenotung/backoff-pool.git"
+  },
+  "homepage": "https://github.com/beenotung/backoff-pool#readme",
+  "bugs": {
+    "url": "https://github.com/beenotung/backoff-pool/issues"
+  },
+  "main": "dist/src/core.js",
+  "types": "dist/src/core.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm run mocha && npm run type-check",
+    "type-check": "tsc --noEmit",
+    "mocha": "ts-mocha test/core.test.ts",
+    "build": "tsc -p ."
+  },
   "devDependencies": {
     "@types/chai": "^4.3.4",
     "@types/mocha": "^10.0.0",
@@ -32,16 +43,5 @@
     "ts-node": "^10.9.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^4.9.3"
-  },
-  "directories": {
-    "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/beenotung/backoff-pool.git"
-  },
-  "bugs": {
-    "url": "https://github.com/beenotung/backoff-pool/issues"
-  },
-  "homepage": "https://github.com/beenotung/backoff-pool#readme"
+  }
 }
