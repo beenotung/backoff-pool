@@ -5,7 +5,9 @@
   "main": "dist/src/core.js",
   "types": "dist/src/core.d.ts",
   "scripts": {
-    "test": "tsc --noEmit",
+    "test": "npm run mocha && npm run type-check",
+    "type-check": "tsc --noEmit",
+    "mocha": "ts-mocha test/core.test.ts",
     "build": "tsc -p ."
   },
   "keywords": [
