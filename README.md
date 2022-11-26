@@ -2,7 +2,7 @@
 
 A helper library to manage expotential backoff intervals of different resources.
 
-This can be used to manage retry interval of login attempts per IP address.
+This can be used to manage retry interval of login attempts per IP address and apply rate limit on abnormal request / rare API calls.
 
 [![npm Package Version](https://img.shields.io/npm/v/backoff-pool)](https://www.npmjs.com/package/backoff-pool)
 [![Minified Package Size](https://img.shields.io/bundlephobia/min/backoff-pool)](https://bundlephobia.com/package/backoff-pool)
