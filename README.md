@@ -8,6 +8,26 @@ This can be used to manage retry interval of login attempts per IP address.
 [![Minified Package Size](https://img.shields.io/bundlephobia/min/backoff-pool)](https://bundlephobia.com/package/backoff-pool)
 [![Minified and Gzipped Package Size](https://img.shields.io/bundlephobia/minzip/backoff-pool)](https://bundlephobia.com/package/backoff-pool)
 
+## Installation
+
+```bash
+npm install backoff-pool
+```
+
+## Importing this package
+
+import from typescript:
+
+```typescript
+import { BackoffPool } from 'backoff-pool'
+```
+
+Or import from javascript:
+
+```javascript
+const { BackoffPool } = require('backoff-pool')
+```
+
 ## Typescript Types
 
 ```typescript
